@@ -89,3 +89,38 @@ button{
 button:hover{
     transform:scale(1.05);
 }
+section{
+    padding:80px 10%;
+}
+
+section h2{
+    font-size:36px;
+    color:#4db8ff;
+    margin-bottom:20px;
+}
+
+section p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+#skills ul{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    list-style:none;
+    padding:0;
+}
+
+#skills li{
+    background:#1d2b4d;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+.project{
+    background:#1d2b4d;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+}
